@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jul  2 15:47:38 2023
-
-@author: ranjan
 """
 import os
 from PIL import Image, ImageFilter
