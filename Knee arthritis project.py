@@ -88,7 +88,7 @@ def CNN2D(nrows, ncols, nchannels):
     model.add(Flatten())
     model.add(Dense(128, activation='relu'))
     model.add(Dense(5, activation='softmax'))
-    print('---2D CNN for Image Size '+str(nrows)+'x'+str(ncols)+'--Developed by Ranjan-----')
+    print('---2D CNN for Image Size '+str(nrows)+'x'+str(ncols))
     print(model.summary())
     return model
 
